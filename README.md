@@ -1,7 +1,7 @@
 # Keep Coding
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/davijose40/keepcoding/README.md)
+![GitHub repo size](hhttps://img.shields.io/badge/keepcoding-challenge-green)
 ![GitHub contributors](https://img.shields.io/github/contributors/davijose40/keepcoding/README-template.md)
 ![GitHub stars](https://img.shields.io/github/stars/davijose40/keepcoding/README.md?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/davijose40/keepcoding/README.md?style=social)
