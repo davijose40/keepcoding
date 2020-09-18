@@ -1,8 +1,8 @@
-- [1.1. Configurar Git](#11-configurar-git)
+# Considerações gerais sobre Git #
 
 Este material tem como objetivo proporcionar uma introdução com os comandos básicos para configurar git e usar as príncipais funções de versionamento.
 
-## 1.1. Configurar Git ##
+## Configurar Git ##
 
 verifique se o Git está instalado:
 
