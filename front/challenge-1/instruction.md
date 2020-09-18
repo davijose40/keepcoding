@@ -8,23 +8,30 @@
 ## Primeiro Criar um projeto
 
   - verifique se você tem instalado o Node em sua máquina
-```
-   $ node --version
-   $ npm --version
-```
 
   - No Windows open terminal (cmd, gitbash, powershellcd):
     use cmd <tecla super digite cmd>
     use gitbash <tecla super digite bash>
 
-- No Linux  CRTL + ALT + T , geralmente é o atallho para abrir o terminal
--No MacOs use Launchpad para abrir o terminal
+  - No Linux  CRTL + ALT + T , geralmente é o atallho para abrir o terminal
+  -No MacOs use Launchpad para abrir o terminal
+
+  com o shell aberto digite:
+```
+    node --version
+    npm --version
+```
 
 Vamos fazer uso do comando npx
 > 
 npx é uma ferramenta destinada a ajudar a aprimorar a experiência de uso de pacotes do registro npm - da mesma forma que o npm torna super fácil instalar e gerenciar dependências hospedadas no registro, o npx torna mais fácil usar as ferramentas CLI e outros executáveis ​​hospedados no o registro. 11 de jul. de 2017 ==> [npm_blog](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner#:~:text=npx%20is%20a%20tool%20intended,executables%20hosted%20on%20the%20registry. "npm_blog")
 
-Não se preocupe se demorar um pouco para criar o projeto a depender da capacidade de processamento ou serviços rodando em background esse processo pode demorar um  pouco.
+> crie uma pasta separada afim de organizar seus arquivos
+*Para fazer uso do comando abaixo e criar o projeto vc deve executa-lo dentro da sua pasta de trabalho, isso deve ser feito navegando pelos diretorios no shell, você pode usar um atalho:
+Navegue até a pasta onde você deseja criar seu projeto React no seu explorador de arquivos nativo (no Windows: windows explorer, no Linux: nautilus ou nemo) e clique com o botão direito do mouse e busque abrir com terminal ou gitbash, o terminal irá abrir no diretorio atual e você poderá digitar o comando a seguir*
+
+
+* lembre-se de nomear o projeto com letras minúsculas e se houver necessidade de espaço em um nome composto use "underscore" ou hífen, nenhum caracter especial é permitido.
 
 ```
 	$ npx create-react-app my-app
@@ -32,9 +39,8 @@ Não se preocupe se demorar um pouco para criar o projeto a depender da capacida
 	$ npm start
 ```
 
-* lembre-se de nomear o projeto com letras minúsculas e se houver necessidade de espaço em um nome composto use "underscore" ou hífen, nenhum caracter especial é permitido.
+Não se preocupe se demorar um pouco para criar o projeto a depender da capacidade de processamento ou serviços rodando em background esse processo pode demorar um  pouco.
 
-> crie uma pasta separada afim de organizar seus arquivos
 
 
 ------------
