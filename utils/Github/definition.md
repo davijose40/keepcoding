@@ -38,3 +38,18 @@ Feito isso o GitHub vai apresentar uma página com os comandos para você vincul
 
 >É comum criarmos o repositório com o mesmo nome da pasta no qual criamos o projeto, existe uma forma de clona o repositório do GitHub e nesse caso ele cria uma pasta com o nome do repositório.
 
+*Nota do autor eu acho mais conveniente deixar desmarcado a opção de: *
+
+- Add a README file
+- Add .gitignore
+- Choose a license
+
+Ao criar o repositório vazio execute na sua máquina local os seguinte comandos:
+
+```bash
+git remote add origin <endereço descrito no seu repositório recem criado>
+git remote -v                   (verifique se o endereço é o mesmo)
+git push -u origi master
+```
+
+### Apartir deste ponto todo seu projet estará conectado ao seu GitHub ####
