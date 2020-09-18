@@ -7,11 +7,11 @@
 ![GitHub forks](https://img.shields.io/github/forks/davijose40/keepcoding?label=Fork&style=plastic)
 ![Twitter Follow](https://img.shields.io/twitter/follow/Jose40Davi?style=social)
 
-
 Project to learnig how to code with challenges, at first we gone use Node.JS, ReactJS, sqlite3, MongoDB, PostgresSQL, Docker.
-In each chapter introduction and challenge. 
+In each chapter introduction and challenge.
 
-# How to use
+## How to use
+
 Para navegar no projeto escolhar entre front ou back selecione a pasta desejada e dentro dela você verá os desafios separados em pastas.
 
 Ao lado da pasta haverá um arquivo instruction.md onde estará o material de apoio com conteúdo técnico exemplos e a instrução do desafio proposto.
@@ -21,7 +21,9 @@ Na pasta com challenge-x haverá o projeto pre-criado quando for o caso para alg
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
+
 * You have installed the latest version of code editor ( we recomend VS-Code)
+
 * You have installed the latest version of NodeJS, npm ( we something use yarn )
 * You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
 * You have read instructions before apply challenge.
@@ -31,21 +33,24 @@ Before you begin, ensure you have met the following requirements:
 To install challenge, follow these steps:
 
 Linux and macOS open terminal:
-```
+
+```bash
 mkdir <challenge name>
 cd <challenge name>
 ```
 
 Windows open terminal (cmd, gitbash, powershell):
-```
+
+```bash
 mkdir <challenge name>
 cd <challenge name>
 ```
+
 ## Using keep coding
 
 To use keep coding challenges, follow these steps:
 
-```
+```bash
 cd <challenge number in folder/directory>
 ```
 
