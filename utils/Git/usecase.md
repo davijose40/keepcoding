@@ -47,3 +47,13 @@
 `git remote -v`
 
 ---
+
+em caso de não haver repositório use a referencia do repositório remoto, o github por exemplo já deixa o comando para você copiar e colar no seu terminal para criar um caminho, se não houver conteúdo dasta fazer um
+
+`git push -u origin master`
+
+caso você tenha criado algum arquivo execute
+
+`git pull`
+
+e depois um git push
