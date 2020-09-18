@@ -9,13 +9,17 @@ verifique se o Git está instalado:
 
 - Configuração global de usuário:
 
-`git config --global user.name "<Seu Nome >"`
-`git config --global user.email "<Seu email>"`
+```
+git config --global user.name "<Seu Nome >"
+
+git config --global user.email "<Seu email>"
+```
 ---
 
 - Configurações adicionais opcional
 
 `git config --global color.ui auto`
+
 `git config --global merge.conflictstyle diff3`
 ---
 
