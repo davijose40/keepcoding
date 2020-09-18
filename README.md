@@ -13,7 +13,9 @@ In each chapter introduction and challenge.
 
 # How to use
 Para navegar no projeto escolhar entre front ou back selecione a pasta desejada e dentro dela você verá os desafios separados em pastas.
+
 Ao lado da pasta haverá um arquivo instruction.md onde estará o material de apoio com conteúdo técnico exemplos e a instrução do desafio proposto.
+
 Na pasta com challenge-x haverá o projeto pre-criado quando for o caso para algum desafio ou estará vazia sendo que poderá ser usada para montagem da sua resposta ao desafio.
 
 ## Prerequisites
