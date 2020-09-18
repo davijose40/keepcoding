@@ -31,7 +31,8 @@ git config --global merge.conflictstyle diff3
 - Confira os dados usando o camando
 
 `git config --list`
-___;
+
+__
 
 ao final para sair digite "q"
 
@@ -48,8 +49,6 @@ ao final para sair digite "q"
 `git config user.name "<Seu Nome>"`
 
 `git config user.email "<Seu email>"`
-
-___;
 
  No caso de configurar o git para um uso específico ele deverá ser o mesmo do repositório e não ficará gravado nas configurações globais
 
