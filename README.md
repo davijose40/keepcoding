@@ -4,6 +4,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/davijose40/keepcoding?style=flat-square)
 ![GitHub contributors](https://img.shields.io/github/contributors/davijose40/keepcoding?style=plastic)
 ![GitHub stars](<https://img.shields.io/github/>- [Keep Coding](#keep-coding)
+![GitHub forks](https://img.shields.io/github/forks/davijose40/keepcoding?label=Fork&style=plastic)
+![Twitter Follow](https://img.shields.io/twitter/follow/Jose40Davi?style=social)
 
 - [Keep Coding](#keep-coding)
   - [How to use](#how-to-use)
@@ -14,8 +16,6 @@
   - [Contributors](#contributors)
   - [Contact](#contact)
   - [License](#license)
-![GitHub forks](https://img.shields.io/github/forks/davijose40/keepcoding?label=Fork&style=plastic)
-![Twitter Follow](https://img.shields.io/twitter/follow/Jose40Davi?style=social)
 
 Project to learnig how to code with challenges, at first we gone use Node.JS, ReactJS, sqlite3, MongoDB, PostgresSQL, Docker.
 In each chapter introduction and challenge.
