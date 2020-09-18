@@ -36,7 +36,6 @@ Navegue até a pasta onde você deseja criar seu projeto React no seu explorador
 ```
 	$ npx create-react-app my-app
 	$ cd my-app
-	$ npm start
 ```
 
 Não se preocupe se demorar um pouco para criar o projeto a depender da capacidade de processamento ou serviços rodando em background esse processo pode demorar um  pouco.
@@ -50,7 +49,10 @@ Depois do comando
 `$:  cd my_app`
 digite 
 `$: code .`
-> não se esqueça do ponto, ele indica que vc deseja abrir o VS-Code no diretorio corrente
+em seguida
+`$: npm start`
+
+> no segundo não se esqueça do ponto e que ele tem um espaço; ele indica que vc deseja abrir o VS-Code no diretorio corrente
 se não abrir com esse comando abra o VS-Code e navegue até a pasta em momento oporturno inclua VS-Code no seu path.
 
 
