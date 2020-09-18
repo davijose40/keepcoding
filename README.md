@@ -3,7 +3,7 @@
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/davijose40/keepcoding?style=flat-square)
 ![GitHub contributors](https://img.shields.io/github/contributors/davijose40/keepcoding?style=plastic)
-![GitHub stars](<https://img.shields.io/github/>- [Keep Coding](#keep-coding)
+![GitHub stars](https://img.shields.io/github) [Keep Coding](#keep-coding)
 ![GitHub forks](https://img.shields.io/github/forks/davijose40/keepcoding?label=Fork&style=plastic)
 ![Twitter Follow](https://img.shields.io/twitter/follow/Jose40Davi?style=social)
 
