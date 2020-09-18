@@ -18,9 +18,11 @@ git config --global user.email "<Seu email>"
 
 - Configurações adicionais opcional
 
-`git config --global color.ui auto`
+```
+git config --global color.ui auto`
 
-`git config --global merge.conflictstyle diff3`
+git config --global merge.conflictstyle diff3
+```
 ---
 
 - Confira os dados usando o camando
