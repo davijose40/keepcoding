@@ -1,4 +1,5 @@
-# Este primeiro desafio é uma introdução ao React.JS, o que você vai conseguir fazer depois desse desadfio
+# Este primeiro desafio é uma introdução ao React.JS, 
+## O que você vai conseguir fazer depois desse desadfio
 
   - Iniciar um projeto React usando package create-react-app
   - Entender a estrutura de um projeto criado pelo create-react-app
@@ -9,7 +10,7 @@
   - verifique se você tem instalado o Node em sua máquina
 ```
    $ node --version
-   $ npm --versio
+   $ npm --version
 ```
 
   - No Windows open terminal (cmd, gitbash, powershellcd):
@@ -19,7 +20,7 @@
 - No Linux  CRTL + ALT + T , geralmente é o atallho para abrir o terminal
 -No MacOs use Launchpad para abrir o terminal
 
-Vamos fazer uso no npx
+Vamos fazer uso do comando npx
 > 
 npx é uma ferramenta destinada a ajudar a aprimorar a experiência de uso de pacotes do registro npm - da mesma forma que o npm torna super fácil instalar e gerenciar dependências hospedadas no registro, o npx torna mais fácil usar as ferramentas CLI e outros executáveis ​​hospedados no o registro. 11 de jul. de 2017 ==> [npm_blog](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner#:~:text=npx%20is%20a%20tool%20intended,executables%20hosted%20on%20the%20registry. "npm_blog")
 
@@ -38,7 +39,7 @@ Não se preocupe se demorar um pouco para criar o projeto a depender da capacida
 
 ------------
 
-## Abrir o projeto
+## Segundo Abrir o projeto
 Depois do comando  
 `$:  cd my_app`
 digite 
@@ -47,11 +48,11 @@ digite
 se não abrir com esse comando abra o VS-Code e naveguea até a pasta em monento oporturno inclua VS-Code no seu path.
 
 
-## Navege pelas pastas
+## Terceiro Navege pelas pastas
 Não se preocupe com a estrutura das pastas nos próximos desafios vamos entender para que servem cada uma das pastas contidas no projeto
 Mas para não ficar preocupado esta estrutura nos dará a melhor organização e em futuros projetos vamos acrescentar mais pastas simplemente para indicar a responsabilidade de cada arquivo dentro de determinada pasta.
 
-## Vamos para "mão-na-massa"
+## Quarto Vamos para "mão-na-massa"
 Se vocẽ executou o comando `npm start` no seu browser deve estar em tela o site react com o logo react e logo abaixo um link "Learn React"
 Deixe o site aberto e vá até o arquivo App.js dentro do diretorio */src*****
 o codigo que você verá será este aqui;
