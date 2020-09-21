@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.frontend {
+  height: 50%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backend {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

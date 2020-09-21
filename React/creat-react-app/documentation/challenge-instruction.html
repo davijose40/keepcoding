@@ -1,0 +1,156 @@
+<h1 class="code-line" data-line-start=0 data-line-end=1><a
+    id="Este_primeiro_desafio__uma_introduo_ao_ReactJS_0"></a>Este primeiro desafio é uma introdução ao React.JS,</h1>
+<h2 class="code-line" data-line-start=1 data-line-end=2><a
+    id="O_que_voc_vai_conseguir_fazer_depois_desse_desafio_1"></a>O que você vai conseguir fazer depois desse desafio
+</h2>
+<ul>
+  <li class="has-line-data" data-line-start="3" data-line-end="4">Iniciar um projeto React usando package
+    create-react-app</li>
+  <li class="has-line-data" data-line-start="4" data-line-end="5">Entender a estrutura de um projeto criado pelo
+    create-react-app</li>
+  <li class="has-line-data" data-line-start="5" data-line-end="7">Interagir com o component em React</li>
+</ul>
+<h2 class="code-line" data-line-start=7 data-line-end=8><a id="Primeiro_Criar_um_projeto_7"></a>Primeiro Criar um
+  projeto</h2>
+<ul>
+  <li class="has-line-data" data-line-start="9" data-line-end="11">
+    <p class="has-line-data" data-line-start="9" data-line-end="10">verifique se você tem instalado o Node em sua
+      máquina</p>
+  </li>
+  <li class="has-line-data" data-line-start="11" data-line-end="15">
+    <p class="has-line-data" data-line-start="11" data-line-end="14">No Windows open terminal (cmd, gitbash,
+      powershellcd):<br>
+      use cmd &lt;tecla super digite cmd&gt;<br>
+      use gitbash &lt;tecla super digite bash&gt;</p>
+  </li>
+  <li class="has-line-data" data-line-start="15" data-line-end="18">
+    <p class="has-line-data" data-line-start="15" data-line-end="17">No Linux CRTL + ALT + T , geralmente é o atallho
+      para abrir o terminal<br>
+      -No MacOs use Launchpad para abrir o terminal</p>
+  </li>
+</ul>
+<p class="has-line-data" data-line-start="18" data-line-end="19">com o shell aberto digite:</p>
+<pre><code class="has-line-data" data-line-start="20" data-line-end="23">    node --version
+    npm --version
+</code></pre>
+<p class="has-line-data" data-line-start="24" data-line-end="25">Vamos fazer uso do comando npx</p>
+<blockquote></blockquote>
+<p class="has-line-data" data-line-start="26" data-line-end="27">npx é uma ferramenta destinada a ajudar a aprimorar a
+  experiência de uso de pacotes do registro npm - da mesma forma que o npm torna super fácil instalar e gerenciar
+  dependências hospedadas no registro, o npx torna mais fácil usar as ferramentas CLI e outros executáveis ​​hospedados
+  no o registro. 11 de jul. de 2017 ==&gt; <a
+    href="https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner#:~:text=npx%20is%20a%20tool%20intended,executables%20hosted%20on%20the%20registry."
+    title="npm_blog">npm_blog</a></p>
+<blockquote>
+  <p class="has-line-data" data-line-start="28" data-line-end="31">crie uma pasta separada afim de organizar seus
+    arquivos<br>
+    <em>Para fazer uso do comando abaixo e criar o projeto vc deve executa-lo dentro da sua pasta de trabalho, isso deve
+      ser feito navegando pelos diretorios no shell, você pode usar um atalho:<br>
+      Navegue até a pasta onde você deseja criar seu projeto React no seu explorador de arquivos nativo (no Windows:
+      windows explorer, no Linux: nautilus ou nemo) e clique com o botão direito do mouse e busque abrir com terminal ou
+      gitbash, o terminal irá abrir no diretorio atual e você poderá digitar o comando a seguir</em></p>
+</blockquote>
+<ul>
+  <li class="has-line-data" data-line-start="33" data-line-end="35">lembre-se de nomear o projeto com letras minúsculas
+    e se houver necessidade de espaço em um nome composto use “underscore” ou hífen, nenhum caracter especial é
+    permitido.</li>
+</ul>
+<pre><code class="has-line-data" data-line-start="36" data-line-end="39">    $ npx create-react-app my-app
+    $ cd my-app
+</code></pre>
+<p class="has-line-data" data-line-start="40" data-line-end="41">Não se preocupe se demorar um pouco para criar o
+  projeto a depender da capacidade de processamento ou serviços rodando em background esse processo pode demorar um
+  pouco.</p>
+<hr>
+<h2 class="code-line" data-line-start=46 data-line-end=47><a id="Segundo_Abrir_o_projeto_46"></a>Segundo Abrir o projeto
+</h2>
+<p class="has-line-data" data-line-start="47" data-line-end="53">Depois do comando<br>
+  <code>$: cd my_app</code><br>
+  digite<br>
+  <code>$: code .</code><br>
+  em seguida<br>
+  <code>$: npm start</code></p>
+<blockquote>
+  <p class="has-line-data" data-line-start="54" data-line-end="56">no segundo não se esqueça do ponto e que ele tem um
+    espaço; ele indica que vc deseja abrir o VS-Code no diretorio corrente<br>
+    se não abrir com esse comando abra o VS-Code e navegue até a pasta em momento oporturno inclua VS-Code no seu path.
+  </p>
+</blockquote>
+<h2 class="code-line" data-line-start=58 data-line-end=59><a id="Terceiro_Navegue_pelas_pastas_58"></a>Terceiro Navegue
+  pelas pastas</h2>
+<p class="has-line-data" data-line-start="59" data-line-end="61">Não se preocupe com a estrutura das pastas nos próximos
+  desafios vamos entender para que servem cada uma das pastas contidas no projeto.<br>
+  Mas para não ficar preocupado esta estrutura nos dará a melhor organização e em futuros projetos vamos acrescentar
+  mais pastas, simplesmente para indicar a responsabilidade de cada arquivo dentro de determinada pasta.</p>
+<h2 class="code-line" data-line-start=62 data-line-end=63><a id="Quarto_Vamos_para_monamassa_62"></a>Quarto Vamos para
+  “mão-na-massa”</h2>
+<p class="has-line-data" data-line-start="63" data-line-end="66">Se vocẽ executou o comando <code>npm start</code> no
+  seu browser deve estar em tela o site react com o logo react e logo abaixo um link “Learn React”.<br>
+  Deixe o site aberto e vá até o arquivo App.js dentro do diretorio <em>/src</em>****<br>
+  o codigo que você verá será este aqui;</p>
+<pre><code class="has-line-data" data-line-start="67" data-line-end="88" class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">App</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">className</span>=<span class="hljs-value">"App"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">header</span> <span class="hljs-attribute">className</span>=<span class="hljs-value">"App-header"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">{logo}</span> <span class="hljs-attribute">className</span>=<span class="hljs-value">"App-logo"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">"logo"</span> /&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+          Edit <span class="hljs-tag">&lt;<span class="hljs-title">code</span>&gt;</span>src/App.js<span class="hljs-tag">&lt;/<span class="hljs-title">code</span>&gt;</span> and save to reload.
+        <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">a</span>
+          <span class="hljs-attribute">className</span>=<span class="hljs-value">"App-link"</span>
+          <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://reactjs.org"</span>
+          <span class="hljs-attribute">target</span>=<span class="hljs-value">"_blank"</span>
+          <span class="hljs-attribute">rel</span>=<span class="hljs-value">"noopener noreferrer"</span>
+        &gt;</span>
+          Learn React
+        <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">header</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  )</span>;
+}
+</code></pre>
+<p class="has-line-data" data-line-start="88" data-line-end="90">apague todo o código que está entre a primeira
+  <code>&lt;div&gt;&lt;/div&gt;</code><br>
+  o código então ficará assim:</p>
+<pre><code class="has-line-data" data-line-start="91" data-line-end="99" class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">App</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">className</span>=<span class="hljs-value">"App"</span>&gt;</span>
+    
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  )</span>;
+}
+</code></pre>
+<p class="has-line-data" data-line-start="99" data-line-end="103">apague o logo, não vamos usá-lo.<br>
+  <code>import logo from './logo.svg';</code><br>
+  entre as tags div escreva seu primeiro código no React<br>
+  <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></p>
+<h2 class="code-line" data-line-start=104 data-line-end=105><a id="Agora_vem_seu_desafio_104"></a>Agora vem seu desafio
+</h2>
+<p class="has-line-data" data-line-start="105" data-line-end="106">Não se assuste, nossa proposta é que vc aprenda
+  apanhando, opâ, quero dizer fazendo, abaixo você tem a imagem da página que vc deverá criar.</p>
+<p class="has-line-data" data-line-start="107" data-line-end="108">
+  <a href="https://i.imgur.com/PQ7M9rI.png"
+    title="challenge-1">
+    <img src="https://i.imgur.com/PQ7M9rI.png" alt="challenge-1" title="challenge-1" style="border: 1px solid black;box-shadow: 10px 8px 8px #443e3e">
+  </a>
+</p>
+<h3 class="code-line" data-line-start=109 data-line-end=110><a id="Como_vou_fazer_isso_109"></a>Como vou fazer isso?
+</h3>
+<p class="has-line-data" data-line-start="110" data-line-end="112">Eu sei que você deve ter reparado que temos um
+  arquivo App.js e outro App.css e já sabe que neste arquivo .css estão as configurações que você irá modificar para
+  obter o resultado do desafio.<br>
+  No arquivo App.css pode apagar todo o conteúdo depois de .App, deixando somente o código que segue abaixo:</p>
+<pre><code class="has-line-data" data-line-start="113" data-line-end="119" class="language-javascript">.App {
+  text-align: center;
+  width: <span class="hljs-number">100</span>vw;
+  height: <span class="hljs-number">100</span>vh;
+}
+</code></pre>
+<blockquote>
+  <p class="has-line-data" data-line-start="119" data-line-end="124">dica: eu estabeleci o tamanho como toda a tela no
+    eixo x e y, e usei flex, mas existem outras formas de fazer.<br>
+    busque na internt um item de cada vez, por exemplo:<br>
+    <em>como posicionar texto no centro da página?</em><br>
+    Boa sorte, estou certo de que você irá conseguir.<br>
+    Te vejo no próximo desafio.</p>
+</blockquote>
