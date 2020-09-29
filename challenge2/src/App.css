@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	/* overflow-y: hidden; */
+}
+
+ .App {
+  text-align: center;
+  font-family: monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(117, 145, 223);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+	height: calc(100vh - 140px);
+
+}
+
+footer {
+	background-color: rgb(117, 145, 223);
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
